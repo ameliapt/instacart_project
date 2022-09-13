@@ -1,0 +1,30 @@
+data:
+  instacart_sample: '../data/instacart_sample.csv'
+  x: '../data/hot100_songs.csv'
+  x: '../data/not_hot_songs.csv'
+  x: '../data/hot100_songs_features.csv'
+  x: '../data/not_hot_songs_features.csv'
+  x: '../data/combined_songs.csv'
+  x: '../data/clustered_songs.csv'
+
+
+
+transformers:
+  x
+  x
+
+
+scalers:
+  x
+  x
+  x
+
+
+
+models:
+  x
+  x
+  x
+  x
+
+
