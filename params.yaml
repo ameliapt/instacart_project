@@ -1,30 +1,18 @@
 data:
-  instacart_sample: '../data/instacart_sample.csv'
-  x: '../data/hot100_songs.csv'
-  x: '../data/not_hot_songs.csv'
-  x: '../data/hot100_songs_features.csv'
-  x: '../data/not_hot_songs_features.csv'
-  x: '../data/combined_songs.csv'
-  x: '../data/clustered_songs.csv'
-
-
-
-transformers:
-  x
-  x
+  info: '../data/clean_data/info.csv'
+  orders: '../data/raw_data/orders.csv'
+  orders_prior: '../data/raw_data/order_products__prior.csv'
+  instacart_sample: '../data/clean_data/instacart_sample.csv'
+  instacart_labels: '../data/clean_data/instacart_labels.csv'
 
 
 scalers:
-  x
-  x
-  x
+  minmax: '../scalers/minmaxscaler.pickle'
 
-
+encoders:
+  ohe: '../encoders/ohe.pickle'
 
 models:
-  x
-  x
-  x
-  x
-
-
+  kmeans_randomstate: 1234
+  kmeans_path: '../models/kmeans_scaled_'
+  kmeans_path_k: '../models/kmeans_scaled_7.pickle'
