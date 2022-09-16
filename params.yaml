@@ -5,7 +5,6 @@ data:
   instacart_sample: '../data/clean_data/instacart_sample.csv'
   instacart_labels: '../data/clean_data/instacart_labels.csv'
 
-
 scalers:
   minmax: '../scalers/minmaxscaler.pickle'
 
@@ -15,4 +14,4 @@ encoders:
 models:
   kmeans_randomstate: 1234
   kmeans_path: '../models/kmeans_scaled_'
-  kmeans_path_k: '../models/kmeans_scaled_7.pickle'
+  kmeans_path_k: '../models/kmeans_scaled_3.pickle'
